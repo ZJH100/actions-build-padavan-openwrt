@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # # # # # # # # # # #
 #   构建 pandavan
-#     花妆男
+#     花妆男https://github.com/ZJH100/actions-build-padavan-openwrt/blob/master/scripts/padavan.sh
 # # # # # # # # # # #
 set -u
 
@@ -16,7 +16,7 @@ OUT_DIR="${ROOT_DIR}/out/$(date '+%Y-%m-%d')"           # 输出文件夹
 PUBLIC_SH="public.sh"                                   # 公共命令
 HTTP_FILE="httpd.c"                                     # httpd 文件
 LOGIN_PAGE="Login.asp"                                  # 登录页面
-CLONE_URL="https://github.com/chongshengB/rt-n56u.git/" # padavan地址
+CLONE_URL="https://github.com/hanwckf/rt-n56u.git" # padavan地址
 CLONE_BRANCH="master"                                   # padavan分支
 WORK_DIR="/opt/rt-n56u"                                 # 工作目录
 TOOL_DIR="toolchain-3.4.x"                              # 工具链目录
